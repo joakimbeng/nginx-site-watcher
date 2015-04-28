@@ -13,4 +13,4 @@ docker pull joakimbeng/nginx-site-watcher
 docker run -d -p 80:80 -v `pwd`/sites:/etc/nginx/sites-enabled joakimbeng/nginx-site-watcher
 ```
 
-Built on [`dockerfile/nginx`](https://registry.hub.docker.com/u/dockerfile/nginx/).
+Built on [`nginx`](https://registry.hub.docker.com/_/nginx/).
