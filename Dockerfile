@@ -1,8 +1,10 @@
 FROM nginx
 
-ADD run.sh /run.sh
-ADD watcher.sh /watcher.sh
+ADD run.sh /
+ADD watcher.sh /
 
-RUN chmod +x /run.sh && chmod +x /watcher.sh
+WORKDIR /
 
-CMD /run.sh
+RUN chmod +x run.sh watcher.sh
+
+CMD ./run.sh
