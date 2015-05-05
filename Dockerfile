@@ -2,6 +2,8 @@ FROM nginx
 
 ADD run.sh /
 ADD watcher.sh /
+ADD nginx.conf /etc/nginx/
+ADD proxy_params /etc/nginx/
 
 WORKDIR /
 
