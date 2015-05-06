@@ -1,3 +1,3 @@
 #!/bin/bash
-/watcher.sh &
 nginx
+/watcher.sh
