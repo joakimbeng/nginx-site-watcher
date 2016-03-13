@@ -9,4 +9,4 @@ WORKDIR /
 
 RUN chmod +x run.sh watcher.sh
 
-CMD ./run.sh
+CMD ["./run.sh", "/etc/nginx/sites-enabled"]
